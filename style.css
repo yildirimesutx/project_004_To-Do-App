@@ -103,11 +103,11 @@ ul li{
         background-color: #ACCACE; /* Blue background */
         border: none; /* Remove borders */
         border-radius:5px;
-        color: white; /* White text */
+        color:white; /* White text */
         padding: 0.3em 0.4em; /* Some padding */
         font-size: 1.2em; /* Set a font size */
         cursor: pointer; /* Mouse pointer on hover */
-        width:3em;
+        width: 3rem;
 } 
     
 input{
@@ -146,11 +146,21 @@ h2{
 
 
 
-@media only screen and (max-width: 1200px) {
-    .todolist{
+@media only screen and (max-width:700px) {
+    /* .todolist{
         width: 80vw;
-    }
-    #add-task{
+    } */
+    /* #add-task{
         width: 80vw;
+    } */
+    .btn{
+       font-size: 0.8rem;
+     
     }
+  
+    #task{
+        font-size:15px;
+
+    }
+
 }
